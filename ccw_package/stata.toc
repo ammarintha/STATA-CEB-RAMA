@@ -1,0 +1,5 @@
+v 3
+d Stata packages by Ammarin Thakkinstian <ammarin.tha@mahidol.ac.th>
+d Department of Clinical Epidemiology and Biostatistics (CEB),
+d Faculty of Medicine Ramathibodi Hospital, Mahidol University
+p ccw Clone-Censor-Weight (CCW) analysis for Stata

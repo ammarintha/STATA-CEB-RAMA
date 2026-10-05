@@ -1,0 +1,25 @@
+v 3
+d 'CCW': Clone-Censor-Weight analysis for Stata
+d
+d   create_clones       -- create clones and artificial censoring
+d   cast_clones_to_long -- reshape to counting-process long format
+d   generate_ccw        -- IPCW clone-censor weights
+d   bootstrap_ccw       -- bootstrap inference for the weighted Cox model
+d
+d Requires: Stata 16 or higher
+d
+d Author: Ammarin Thakkinstian
+d Department of Clinical Epidemiology and Biostatistics (CEB),
+d Faculty of Medicine Ramathibodi Hospital, Mahidol University
+d Email: ammarin.tha@mahidol.ac.th
+d
+d Version 5.1  01oct2026
+d
+f create_clones.ado
+f create_clones.sthlp
+f cast_clones_to_long.ado
+f cast_clones_to_long.sthlp
+f generate_ccw.ado
+f generate_ccw.sthlp
+f bootstrap_ccw.ado
+f bootstrap_ccw.sthlp
